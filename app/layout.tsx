@@ -19,8 +19,11 @@ export const metadata: Metadata = {
   generator: "v0.app",
   keywords: ["urban foraging", "foraging tools", "plant identification", "AI scanner", "city nature", "edible plants"],
   icons: {
-    icon: "https://img.icons8.com/fluency/48/leaves.png",
-    apple: "https://img.icons8.com/fluency/180/leaves.png",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/apple-touch-icon.jpg",
   },
 }
 
